@@ -22,10 +22,10 @@ const Banner = () => {
                     <div className="banner__review_wrapper">
                         <div className="banner__review">
                             <div className="banner__review_img">
-                                <img src="images/client.png" alt="img"/>
-                                <img className="review_img1" src="images/client.png" alt="img"/>
-                                <img className="review_img2" src="images/client.png" alt="img"/>
-                                <img className="review_img3" src="images/client.png" alt="img"/>
+                                <img src="/src/assets/client.png" alt="img"/>
+                                <img className="review_img1" src="/src/assets/client.png" alt="img"/>
+                                <img className="review_img2" src="/src/assets/client.png" alt="img"/>
+                                <img className="review_img3" src="/src/assets/client.png" alt="img"/>
                             </div>
                             <div className="banner__review_heading_main">
                                 <div className="banner__review_heading1">
@@ -55,7 +55,7 @@ const Banner = () => {
                     </div>
                 </div>
                 <div className="banner__img_main">
-                    <img src="../assets/Image.png" alt="img" className="banner__img"/>
+                    <img src="/src/assets/Image.png" alt="img" className="banner__img"/>
                 </div>
             </div>
             

@@ -1,4 +1,5 @@
 import React from 'react'
+import { NavLink } from 'react-router-dom'
 
 const Nav = () => {
   return (
@@ -6,24 +7,39 @@ const Nav = () => {
         <div className="container">
             <div className="nav__wrapper">
                 <div className="nav__logo">
-                    <img src="./assets/logo.png" alt="img"/>
+                    <img src="/src/assets/logo.png" alt="img"/>
                 </div>
                 <div className="nav__menu">
                     <ul className="nav__menu_list">
                         <li>
-                            <a className="nav__menu_link" href="#">home</a>
+                            <NavLink className="nav__menu_link" to="/">
+                                home
+                            </NavLink>
                         </li>
                         <li>
-                            <a className="nav__menu_link" href="#">home</a>
+                            <NavLink className="nav__menu_link" to="/about">
+                                about
+                            </NavLink>
                         </li>
                         <li>
-                            <a className="nav__menu_link" href="#">home</a>
+                            <NavLink className="nav__menu_link" to="/service">
+                                service
+                            </NavLink>
                         </li>
                         <li>
-                            <a className="nav__menu_link" href="#">home</a>
+                            <NavLink className="nav__menu_link" to="/expert">
+                                expert
+                            </NavLink>
                         </li>
                         <li>
-                            <a className="nav__menu_link" href="#">home</a>
+                            <NavLink className="nav__menu_link" to="/solution">
+                                solution
+                            </NavLink>
+                        </li>
+                        <li>
+                            <NavLink className="nav__menu_link" to="/startup">
+                                startup
+                            </NavLink>
                         </li>
                     </ul>
                 </div>

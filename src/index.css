@@ -84,13 +84,22 @@ font-family: 'Poppins', sans-serif;
 }
 .nav__menu_link{
   font-style: normal;
-  font-weight: 400;
+  font-weight: 600;
   font-size: 18px;
   line-height: 25px;
   font-family: 'Open Sans', sans-serif;
   color: #FFFFFF;
   text-transform: capitalize;
+  transition: all linear 0.3s;
 }
+.nav__menu_link:hover{
+  color: #52C5B6;
+}
+
+.active{
+  color: #52C5B6;
+}
+
 .nav__btn_main{
   display: flex;
   align-items: center;
@@ -211,7 +220,7 @@ font-family: 'Poppins', sans-serif;
 
 
 #solution{
-  padding: 165px 0;
+  padding:230px 0 165px 0;
 }
 .solution__wrapper{
   display: flex;
@@ -368,7 +377,7 @@ font-family: 'Poppins', sans-serif;
 
 
 #service{
-  padding: 120px 0;
+  padding:230px 0 120px 0;
   background-color:#fafafa ;
 }
 .service__pera{
@@ -447,7 +456,7 @@ font-family: 'Poppins', sans-serif;
 /* -------------------news---------------- */
 
 #news{
-  padding: 130px 0;
+  padding:230px 0 130px 0;
 }
 .news__pera{
   font-style: normal;
@@ -544,7 +553,7 @@ font-family: 'Poppins', sans-serif;
 /* -------------------expert-------------- */
 
 #expert{
-  padding: 80px 0 100px 0;
+  padding: 230px 0 100px 0;
   background: linear-gradient( to bottom, #30344E 0%, #30344E 70%, #fff 70%, #fff 100% );
 }
 .expert__heading_small{
@@ -863,7 +872,7 @@ font-family: 'Poppins', sans-serif;
 /* -----------------about--------------- */
 
 #about{
-  padding: 155px 0 130px 0 ;
+  padding: 230px 0 130px 0 ;
 }
 .about__wrapper{
   display: flex;
