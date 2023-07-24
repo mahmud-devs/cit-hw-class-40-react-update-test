@@ -33,9 +33,9 @@ function App() {
         <Route  element={<Rootlayout/>}    >
           <Route  path='/' element={<Banner/>}/>
           <Route  path='/about' element={<About/>}/>
-          <Route  path='/expert' element={<Solution/>}/>
-          <Route  path='/solution' element={<Solutionst/>}/>
-          <Route  path='/startup' element={<Startup/>}/>
+          <Route  path='/team' element={<Solution/>}/>
+          <Route  path='/gallery' element={<Solutionst/>}/>
+          <Route  path='/plan' element={<Startup/>}/>
           <Route  path='/service' element={<Service/>}/> 
         </Route>
         

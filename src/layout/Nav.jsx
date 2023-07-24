@@ -27,18 +27,18 @@ const Nav = () => {
                             </NavLink>
                         </li>
                         <li>
-                            <NavLink className="nav__menu_link" to="/expert">
-                                expert
+                            <NavLink className="nav__menu_link" to="/team">
+                                team
                             </NavLink>
                         </li>
                         <li>
-                            <NavLink className="nav__menu_link" to="/solution">
-                                solution
+                            <NavLink className="nav__menu_link" to="/gallery">
+                                gallery
                             </NavLink>
                         </li>
                         <li>
-                            <NavLink className="nav__menu_link" to="/startup">
-                                startup
+                            <NavLink className="nav__menu_link" to="/plan">
+                                plan
                             </NavLink>
                         </li>
                     </ul>
